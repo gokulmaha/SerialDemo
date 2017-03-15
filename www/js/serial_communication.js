@@ -63,7 +63,7 @@ $(document).ready(function(){
                 write_to_screen("Success Permission", "green");
 
                 // BaudRate for our Chip: 115200, Adruino: 9600 
-                var opts = {"baudRate":115200, "dataBits":8, "stopBits":1, "parity":0, "dtr":false}
+                var opts = {"baudRate":9600, "dataBits":8, "stopBits":1, "parity":0, "dtr":false}
                 serial.open(opts, 
                     function success(){
                         write_to_screen("Success OPEN", "green");
